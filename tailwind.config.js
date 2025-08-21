@@ -17,9 +17,9 @@ export default {
       fontFamily: {
         'kumbh': ['Kumbh Sans', 'sans-serif'],
       },
-      screens: {
-        'xs': '375px',
-      }
+      // screens: {
+      //   'xs': '375px',
+      // }
     },
   },
   plugins: [],
