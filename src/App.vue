@@ -2,6 +2,7 @@
   <div class="min-h-screen bg-white font-kumbh">
     <Header 
       :cart-item-count="cartItems.length"
+      :cart-items="cartItems"
       @toggle-mobile-menu="toggleMobileMenu"
       @toggle-cart="toggleCart"
     />
@@ -21,8 +22,8 @@
     />
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto px-4 md:px-6 py-6 md:py-12">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+    <main class="max-w-7xl mx-auto px-0 md:px-6 md:py-12">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
         <!-- Product Images -->
         <ProductGallery 
           :product-images="productImages"
@@ -176,7 +177,7 @@ const addToCart = () => {
     }
     
     quantity.value = 0
-    isCartOpen.value = true
+    // isCartOpen.value = true
   }
 }
 
