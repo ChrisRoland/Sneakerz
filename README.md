@@ -2,7 +2,7 @@
 
 A responsive e-commerce product page built with Vue 3, TypeScript, and Tailwind CSS. Features a modern design with interactive elements, mobile-first responsive layout, and full accessibility support.
 
-![Sneakers Preview](/sneakerz/public/desktop-design.jpg)
+![Sneakers Preview](public/desktop-design.jpg)
 
 ## Features
 
